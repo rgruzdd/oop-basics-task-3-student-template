@@ -8,8 +8,7 @@ class Counter:
         self.current = start
 
     def get(self):
-        print(self.current)
-        return
+        return self.current
 
     def increment(self):
         self.current = self.current
